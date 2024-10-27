@@ -33,6 +33,6 @@ public static void main(String[]args) {
 	driver.switchTo().parentFrame();
 	driver.switchTo().frame(topframe);
 	List<WebElement> frames1 =driver.findElements(By.xpath("//frame"));
-	System.out.println("No fo frames is :"+frames1.size());
+	System.out.println("Moved to to frames :"+frames1.size());
 }
 }
